@@ -6,7 +6,7 @@ Failed=0;
 Iteration=0;
 for i=1:1000
     Iteration=Iteration+1
-    t = tcpclient("192.168.0.19",52000,"Timeout",2.5)
+    t = tcpclient("192.168.0.18",80,"Timeout",10)
     A=0;
     pause(5);
     

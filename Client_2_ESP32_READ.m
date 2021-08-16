@@ -4,8 +4,9 @@ close all;
 Succeed=0;
 Failed=0;
 
-t = tcpclient("192.168.0.19",52000,"Timeout",2)
+t = tcpclient("192.168.0.18",80,"Timeout",10)
 B=0;
+pause(5);
 
 for i=1:10000
 
